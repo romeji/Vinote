@@ -1,0 +1,19 @@
+app:
+    type:     annotation
+    resource: "@AppBundle/Controller/DefaultController.php"
+
+exposants:
+    type: rest
+    resource: AppBundle\Controller\ExposantController
+
+invites:
+    type: rest
+    resource: AppBundle\Controller\InviteController
+
+notes:
+    type: rest
+    resource: AppBundle\Controller\NoteController
+
+vins:
+    type: rest
+    resource: AppBundle\Controller\VinController
